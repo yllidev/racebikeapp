@@ -84,6 +84,8 @@ test:
 #
 production:
   <<: *default
-  database: bikeraceapp_production
-  username: bikeraceapp
-  password: <%= ENV['BIKERACEAPP_DATABASE_PASSWORD'] %>
+  database: d14leae57a18gr
+  host: 'ec2-54-83-201-84.compute-1.amazonaws.com'
+  username: 'dqzmowfcmiljhp'
+  password: '5c76b7bee00f39a79ad337fab9d048445465c906fdd6b960196a5f4f728427b6'
+  port: '5432'
